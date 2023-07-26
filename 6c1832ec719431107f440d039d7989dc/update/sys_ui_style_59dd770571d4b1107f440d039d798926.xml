@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>state</element>
+        <name>x_cdltd_loaner_req_lnr</name>
+        <style>font-size:18px;&#13;
+color:yellow;&#13;
+background-color:blue;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-26 15:36:23</sys_created_on>
+        <sys_id>59dd770571d4b1107f440d039d798926</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_cdltd_loaner_req_lnr</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">6c1832ec719431107f440d039d7989dc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">6c1832ec719431107f440d039d7989dc</sys_scope>
+        <sys_update_name>sys_ui_style_59dd770571d4b1107f440d039d798926</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-26 16:32:34</sys_updated_on>
+        <value/>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=59dd770571d4b1107f440d039d798926"/>
+</record_update>

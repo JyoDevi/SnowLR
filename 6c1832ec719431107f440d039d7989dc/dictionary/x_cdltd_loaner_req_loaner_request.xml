@@ -1,8 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Loaner Request" max_length="40" name="x_cdltd_loaner_req_loaner_request" type="collection">
+    <element label="Loaner Request" max_length="40" name="x_cdltd_loaner_req_loaner_request" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="Closed complete" sequence="1" value="closed complete"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
         </element>
+        <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional comments" max_length="500" name="u_additional_comments" type="string"/>
+        <element attributes="encode_utf8=false" label="Assigned to" max_length="32" name="u_assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Assignment group" max_length="32" name="u_assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="encode_utf8=false" label="Configuration_item" max_length="32" name="u_ci" reference="cmdb_ci" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Closed" max_length="40" name="u_closed_at" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="sc" label="Depot" max_length="40" name="u_depot" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New York" sequence="0" value="ny"/>
+                <element inactive_on_update="false" label="London" sequence="1" value="london"/>
+                <element inactive_on_update="false" label="Buenos Aires" sequence="2" value="ba"/>
+                <element inactive_on_update="false" label="Santa Clara" sequence="3" value="sc"/>
+                <element inactive_on_update="false" label="Singapore" sequence="4" value="singapore"/>
+                <element inactive_on_update="false" label="Sydney" sequence="5" value="sydney"/>
+                <element inactive_on_update="false" label="Other" sequence="6" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="200" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End date" mandatory="true" max_length="40" name="u_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="cmdb_ci_laptop" label="Item type" max_length="40" name="u_item_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="cmdb_ci_laptop"/>
+                <element inactive_on_update="false" label="Mobile Phone" sequence="1" value="cmdb_ci_mobile_devics"/>
+                <element inactive_on_update="false" label="Projector" sequence="2" value="cmdb_ci_projector"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Location to be used" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opened" max_length="40" name="u_opened_at" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
+        <element attributes="encode_utf8=false" label="Requested for" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="100" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start date" mandatory="true" max_length="40" name="u_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Work notes" max_length="1000" name="u_work_notes" type="string"/>
+        <index name="index">
+            <element name="u_assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="u_ci"/>
+        </index>
+        <index name="index3">
+            <element name="u_requested_for"/>
+        </index>
+        <index name="index4">
+            <element name="u_assignment_group"/>
+        </index>
     </element>
 </database>
