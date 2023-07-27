@@ -4,39 +4,37 @@
         <application display_value="Loaner Request">2fd8baac719431107f440d039d798978</application>
         <assessment/>
         <device_type/>
-        <filter table="x_cdltd_loaner_req_loaner_request">state=open^EQ<item display_value="open" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="open"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </filter>
+        <filter/>
         <hint/>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Open</mobile_title>
+        <mobile_title>Loaner Tasks</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_cdltd_loaner_req_loaner_request</name>
-        <order>400</order>
+        <name>x_cdltd_loaner_req_loaner_task</name>
+        <order/>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_cdltd_loaner_req.admin</roles>
+        <roles>x_cdltd_loaner_req.loaner_request_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-25 16:39:04</sys_created_on>
+        <sys_created_on>2023-07-26 21:56:13</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>4ac28bb471d071107f440d039d7989b8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Open</sys_name>
+        <sys_id>4b059dd5711cb1107f440d039d7989af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loaner Tasks</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">6c1832ec719431107f440d039d7989dc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Request">6c1832ec719431107f440d039d7989dc</sys_scope>
-        <sys_update_name>sys_app_module_4ac28bb471d071107f440d039d7989b8</sys_update_name>
+        <sys_update_name>sys_app_module_4b059dd5711cb1107f440d039d7989af</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-26 20:02:19</sys_updated_on>
+        <sys_updated_on>2023-07-26 21:56:13</sys_updated_on>
         <timeline_page/>
-        <title>Open</title>
+        <title>Loaner Tasks</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

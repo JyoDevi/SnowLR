@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <description>Used to trigger an email to remind a user to return their loaner item</description>
+        <event_name>x_cdltd_loaner_req.Return</event_name>
+        <fired_by>Scheduled Script Execution: Loaner Item Return</fired_by>
+        <queue/>
+        <suffix>Return</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 17:05:59</sys_created_on>
+        <sys_id>69eb116571d8f1107f440d039d7989a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_loaner_req.Return</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">6c1832ec719431107f440d039d7989dc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">6c1832ec719431107f440d039d7989dc</sys_scope>
+        <sys_update_name>sysevent_register_69eb116571d8f1107f440d039d7989a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 17:05:59</sys_updated_on>
+        <table>x_cdltd_loaner_req_loaner_request</table>
+    </sysevent_register>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Request">6c1832ec719431107f440d039d7989dc</application>
+        <file_path/>
+        <instance_id>429215681b503918ac52744fdc4bcb4a</instance_id>
+        <instance_name>nowlearning-nlinst00944580-test-001</instance_name>
+        <name>sysevent_register_69eb116571d8f1107f440d039d7989a4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><description>Used to trigger an email to remind a user to return their loaner item</description><event_name>x_cdltd_loaner_req.Return</event_name><fired_by>Scheduled Script Execution: Loaner Item Return</fired_by><queue/><suffix>Return</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-27 17:05:59</sys_created_on><sys_id>69eb116571d8f1107f440d039d7989a4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_loaner_req.Return</sys_name><sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">6c1832ec719431107f440d039d7989dc</sys_package><sys_policy/><sys_scope display_value="Loaner Request">6c1832ec719431107f440d039d7989dc</sys_scope><sys_update_name>sysevent_register_69eb116571d8f1107f440d039d7989a4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-27 17:05:59</sys_updated_on><table>x_cdltd_loaner_req_loaner_request</table></sysevent_register></record_update>]]></payload>
+        <payload_hash>-1808404172</payload_hash>
+        <record_name>x_cdltd_loaner_req.Return</record_name>
+        <reverted_from/>
+        <source>11f524d97158b1107f440d039d79890a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 17:05:59</sys_created_on>
+        <sys_id>513c5d2571d8f1107f440d039d798985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18998507d5e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 17:05:59</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>993c5d2537d8f110c4511532dcff0184</update_guid>
+        <update_guid_history>993c5d2537d8f110c4511532dcff0184:-1808404172</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 17:07:02</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>079235df289943b093de2b8c6c2c3840</sys_id>
+        <sys_metadata>69eb116571d8f1107f440d039d7989a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_loaner_req.Return</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">6c1832ec719431107f440d039d7989dc</sys_package>
+        <sys_parent display_value="Loaner Request">89b8beec719431107f440d039d7989fb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">6c1832ec719431107f440d039d7989dc</sys_scope>
+        <sys_scope_delete display_value="">619f7b135f144c7bae3444335515f1d9</sys_scope_delete>
+        <sys_update_name>sysevent_register_69eb116571d8f1107f440d039d7989a4</sys_update_name>
+        <sys_update_version display_value="sysevent_register_69eb116571d8f1107f440d039d7989a4">513c5d2571d8f1107f440d039d798985</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 17:07:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
